@@ -48,10 +48,10 @@ h1{ font-size: clamp(2rem, 4vw, 3rem); line-height:1.15; margin:0 0 12px; }
 .footer{ border-top:1px solid rgba(148,163,184,.12); padding:24px 0; color:var(--muted); }
 
 /* Float-based grids for content pages */
-.grid-3.clearfix > .col{ float:left; width:32%; margin-right:2%; }
+.grid-3.clearfix > .col{ float:left; width:32%; margin-right:2%; margin-bottom:18px; }
 .grid-3.clearfix > .col:nth-child(3n){ margin-right:0; }
 
-.grid-2.clearfix > .col{ float:left; width:49%; margin-right:2%; }
+.grid-2.clearfix > .col{ float:left; width:49%; margin-right:2%; margin-bottom:18px; }
 .grid-2.clearfix > .col:nth-child(2n){ margin-right:0; }
 
 /* Hobbies/Skills cards reuse */
